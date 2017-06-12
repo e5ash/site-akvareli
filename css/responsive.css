@@ -1,0 +1,311 @@
+@media screen and (max-width: 1330px) {
+  #main #content #why-we .tack-zhe {
+    margin-right: 0;
+    background-size: 80%;
+    background-position: bottom right; }
+  #main #content #price-repair .col.right {
+    margin-left: -30px; }
+  #main #content #price-repair .slider {
+    margin-right: 0; }
+  #main #content #price-repair .group h5 {
+    display: none; }
+  #main #content #price-design .slider {
+    margin-left: 0;
+    margin-right: 0; }
+    #main #content #price-design .slider .col {
+      height: auto;
+      padding-bottom: 50px; }
+    #main #content #price-design .slider .btn {
+      margin-top: 71px; }
+  #main #content #price-design img {
+    width: 825px; } }
+
+@media screen and (max-width: 1200px) {
+  #main #content {
+    float: none;
+    width: 100%;
+    margin: 0 auto; }
+  #main #aside {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 825px; }
+    #main #aside h2 {
+      text-align: center;
+      font-size: 32px; }
+    #main #aside #services, #main #aside #chore, #main #aside #stock, #main #aside #discount, #main #aside #all-links, #main #aside #visit, #main #aside #visit + .reviews {
+      display: none; }
+    #main #aside .reviews {
+      margin-bottom: 40px; }
+      #main #aside .reviews .item {
+        float: left;
+        width: 45%;
+        margin: 0 2.5%; }
+        #main #aside .reviews .item .group img {
+          display: block;
+          margin: 0 auto; }
+        #main #aside .reviews .item .group span {
+          width: 100%; }
+        #main #aside .reviews .item h3, #main #aside .reviews .item p {
+          max-width: 255px;
+          margin-left: auto;
+          margin-right: auto; }
+    #main #aside #advantages .item {
+      padding-top: 10px;
+      float: left;
+      width: 25%;
+      margin-bottom: 40px; }
+    #main #aside #works .item {
+      margin-bottom: 50px; }
+      #main #aside #works .item img {
+        float: left;
+        margin-right: 15px; }
+      #main #aside #works .item a {
+        text-align: right; } }
+
+@media screen and (max-width: 1135px) {
+  .global-nav {
+    padding-left: 0; }
+  #header #panel .desc {
+    display: none; } }
+
+@media screen and (max-width: 940px) {
+  #footer .bottom .logo {
+    width: 40%; }
+  #footer .bottom .contacts {
+    float: right;
+    width: 60%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  #footer .bottom .dev {
+    display: none; } }
+
+@media screen and (max-width: 905px) {
+  .global-nav ul {
+    text-align: center; }
+    .global-nav ul a {
+      padding: 10px 0; }
+      .global-nav ul a:before {
+        display: none !important; }
+    .global-nav ul span {
+      padding: 0 15px; }
+  #main #content #why-we .facts .col {
+    float: none;
+    width: auto;
+    max-width: 300px;
+    margin: 0 auto 20px; }
+  #main #content #why-we .facts p {
+    float: none !important;
+    padding-bottom: 20px; }
+  #main #content #why-we .tack-zhe {
+    background-position: top center;
+    margin-right: 150px;
+    background-size: 100%;
+    padding-bottom: 50px; }
+    #main #content #why-we .tack-zhe .col {
+      margin-top: 370px;
+      max-width: 340px;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      padding-left: 150px; }
+  #main #content #consultation {
+    margin-right: 0;
+    background: #0B95D5;
+    margin-bottom: 50px; }
+    #main #content #consultation .col {
+      float: none;
+      margin: 80px auto; }
+  #main #content #price-repair .left {
+    float: none;
+    width: 100% !important;
+    margin: 0 auto; }
+    #main #content #price-repair .left img {
+      position: relative;
+      margin: 0 auto;
+      left: 30px;
+      max-width: 565px;
+      width: 100%; }
+  #main #content #price-repair .right {
+    float: none;
+    width: auto;
+    margin: -65px auto 0 !important; }
+    #main #content #price-repair .right ul {
+      margin: 5px 0 !important; }
+  #main #content #price-repair .slider .price {
+    margin-left: auto !important;
+    margin-right: auto !important; }
+  #main #content #calc-repair .col, #main #content #calc-design .col {
+    float: none; }
+  #main #content #calc-repair .left, #main #content #calc-design .left {
+    text-align: center; }
+  #main #content #calc-repair h2, #main #content #calc-design h2 {
+    text-align: center; }
+    #main #content #calc-repair h2:after, #main #content #calc-design h2:after {
+      margin-left: auto !important; }
+  #main #content #calc-repair {
+    margin-top: 100px; }
+  #main #content #about-num {
+    margin-top: 70px; }
+    #main #content #about-num .this {
+      background: none; }
+      #main #content #about-num .this .col {
+        margin: 0 auto 30px !important;
+        width: 50%; }
+  #main #content #text img {
+    display: block;
+    float: none !important;
+    margin: 20px auto 5px !important; }
+  #main #content #projects {
+    margin: 0 auto; }
+    #main #content #projects .slick-arrow {
+      display: none !important; }
+  #main #content #price-design .slider h3 {
+    margin-bottom: 15px; }
+  #main #content #price-design .slider h3, #main #content #price-design .slider h6 {
+    text-align: center; }
+  #main #content #price-design .slider img {
+    display: none; }
+  #main #content #price-design .slider .col {
+    position: relative !important;
+    right: auto !important;
+    width: 100% !important; }
+  #main #content #price-design .slider .group {
+    margin-right: 0; }
+    #main #content #price-design .slider .group h6 {
+      display: none; }
+  #main #content #price-design .slider .btn {
+    margin-left: auto;
+    margin-right: auto; }
+  #main #content #projects {
+    display: none; } }
+
+@media screen and (max-width: 800px) {
+  .global-nav ul {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background: #117FBF;
+    width: 100%;
+    left: 0;
+    top: 40px;
+    margin-top: -40px; }
+    .global-nav ul li {
+      display: block;
+      width: 100%; }
+    .global-nav ul span {
+      border-right: 0; }
+    .global-nav ul a {
+      width: 100%; }
+  button#sticks {
+    position: relative;
+    display: block;
+    z-index: 10011; }
+  #header #panel {
+    height: auto;
+    padding-bottom: 20px; }
+    #header #panel .logo {
+      width: 100%; }
+      #header #panel .logo img {
+        display: block;
+        position: relative;
+        left: 0;
+        margin: 0 auto; }
+  #footer .global-nav {
+    display: none; }
+  #header #banner {
+    margin-top: -2px; } }
+
+@media screen and (max-width: 730px) {
+  #main #content #why-we .tack-zhe {
+    background: none;
+    margin-top: -90px;
+    margin-right: 0; }
+    #main #content #why-we .tack-zhe .col {
+      margin-top: 0;
+      margin-left: auto;
+      padding-left: 0; } }
+
+@media screen and (max-width: 620px) {
+  .btn-group .btn.v4 {
+    width: 25%; }
+  .btn-group input {
+    width: 25%;
+    margin-right: 1% !important;
+    margin-left: 1% !important; }
+  #main #aside .reviews .item {
+    float: none;
+    width: 100%;
+    margin-bottom: 40px; }
+    #main #aside .reviews .item * {
+      max-width: 100% !important; }
+  #main #advantages .item {
+    width: 50% !important; }
+  #main #works a {
+    text-align: center !important; }
+  #main #works img {
+    float: none !important;
+    display: block !important;
+    margin: 5px auto !important; }
+  #main #price-repair .slider .col.left {
+    height: auto !important; }
+  #main .nav {
+    margin-top: 60px; }
+    #main .nav .slick-dots li {
+      display: block;
+      text-align: left;
+      margin-left: 20px !important; }
+  #main #about-num .this .col {
+    width: 100% !important; }
+  #footer .bottom .logo {
+    display: none; }
+  #footer .bottom .contacts {
+    float: none;
+    width: 100%;
+    padding-bottom: 15px; }
+  #main #content #price-repair .slider .group {
+    margin-bottom: 10px; } }
+
+@media screen and (max-width: 490px) {
+  .btn.v1 {
+    width: 100% !important; }
+  #main #content #calc-design img, #main #content #calc-repair .left img {
+    margin-left: 0;
+    width: 100%; }
+  #header #panel .contacts, #header #panel .phone {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; }
+  #header #panel .btn {
+    margin: 10px auto 0; }
+  #banner {
+    display: none; }
+  #main #content #text img {
+    width: 100%; }
+  #popup .container {
+    top: 0; }
+    #popup .container .close {
+      top: 10px;
+      right: 10px; } }
+
+@media screen and (max-width: 390px) {
+  #header #panel .logo img {
+    width: 100%; }
+  #main #advantages .item {
+    width: 100% !important;
+    float: none;
+    margin: 0 auto 30px !important; }
+  #main #content #price-repair .slider .col.right {
+    width: 100%; }
+  #main #content #price-repair img {
+    left: 0 !important; }
+  #main #content #price-repair .slider .col.left {
+    padding-left: 20px; }
+  #main #content #why-we .tack-zhe .col, #main #content #why-we .facts .col {
+    width: 100%;
+    max-width: 100%; }
+  #main #content #why-we .facts .col:nth-of-type(3) p {
+    margin-right: 0 !important; }
+  #main #content #calc-repair {
+    margin-top: -100px; } }

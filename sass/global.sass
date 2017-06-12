@@ -1,0 +1,1557 @@
+/*
+  SASS variables are information about icon's compiled state, stored under its original file name
+
+  .icon-home
+    width: $icon-home-width
+
+  The large array-like variables contain all information about a single icon
+  $icon-home: x y offset_x offset_y width height total_width total_height image_path
+
+  At the bottom of this section, we provide information about the spritesheet itself
+  $spritesheet: width height image $spritesheet-sprites
+  */
+$arrow-down-name: 'arrow-down'
+$arrow-down-x: 0px
+$arrow-down-y: 110px
+$arrow-down-offset-x: 0px
+$arrow-down-offset-y: -110px
+$arrow-down-width: 13px
+$arrow-down-height: 8px
+$arrow-down-total-width: 152px
+$arrow-down-total-height: 138px
+$arrow-down-image: '../img/sprite.png'
+$arrow-down: (0px, 110px, 0px, -110px, 13px, 8px, 152px, 138px, '../img/sprite.png', 'arrow-down', )
+$arrow-next-v2-name: 'arrow-next-v2'
+$arrow-next-v2-x: 76px
+$arrow-next-v2-y: 0px
+$arrow-next-v2-offset-x: -76px
+$arrow-next-v2-offset-y: 0px
+$arrow-next-v2-width: 76px
+$arrow-next-v2-height: 76px
+$arrow-next-v2-total-width: 152px
+$arrow-next-v2-total-height: 138px
+$arrow-next-v2-image: '../img/sprite.png'
+$arrow-next-v2: (76px, 0px, -76px, 0px, 76px, 76px, 152px, 138px, '../img/sprite.png', 'arrow-next-v2', )
+$arrow-next-name: 'arrow-next'
+$arrow-next-x: 120px
+$arrow-next-y: 76px
+$arrow-next-offset-x: -120px
+$arrow-next-offset-y: -76px
+$arrow-next-width: 14px
+$arrow-next-height: 24px
+$arrow-next-total-width: 152px
+$arrow-next-total-height: 138px
+$arrow-next-image: '../img/sprite.png'
+$arrow-next: (120px, 76px, -120px, -76px, 14px, 24px, 152px, 138px, '../img/sprite.png', 'arrow-next', )
+$arrow-prev-v2-name: 'arrow-prev-v2'
+$arrow-prev-v2-x: 0px
+$arrow-prev-v2-y: 0px
+$arrow-prev-v2-offset-x: 0px
+$arrow-prev-v2-offset-y: 0px
+$arrow-prev-v2-width: 76px
+$arrow-prev-v2-height: 76px
+$arrow-prev-v2-total-width: 152px
+$arrow-prev-v2-total-height: 138px
+$arrow-prev-v2-image: '../img/sprite.png'
+$arrow-prev-v2: (0px, 0px, 0px, 0px, 76px, 76px, 152px, 138px, '../img/sprite.png', 'arrow-prev-v2', )
+$arrow-prev-name: 'arrow-prev'
+$arrow-prev-x: 134px
+$arrow-prev-y: 76px
+$arrow-prev-offset-x: -134px
+$arrow-prev-offset-y: -76px
+$arrow-prev-width: 14px
+$arrow-prev-height: 24px
+$arrow-prev-total-width: 152px
+$arrow-prev-total-height: 138px
+$arrow-prev-image: '../img/sprite.png'
+$arrow-prev: (134px, 76px, -134px, -76px, 14px, 24px, 152px, 138px, '../img/sprite.png', 'arrow-prev', )
+$checkbox-checked-name: 'checkbox-checked'
+$checkbox-checked-x: 64px
+$checkbox-checked-y: 76px
+$checkbox-checked-offset-x: -64px
+$checkbox-checked-offset-y: -76px
+$checkbox-checked-width: 30px
+$checkbox-checked-height: 30px
+$checkbox-checked-total-width: 152px
+$checkbox-checked-total-height: 138px
+$checkbox-checked-image: '../img/sprite.png'
+$checkbox-checked: (64px, 76px, -64px, -76px, 30px, 30px, 152px, 138px, '../img/sprite.png', 'checkbox-checked', )
+$checkbox-default-name: 'checkbox-default'
+$checkbox-default-x: 34px
+$checkbox-default-y: 76px
+$checkbox-default-offset-x: -34px
+$checkbox-default-offset-y: -76px
+$checkbox-default-width: 30px
+$checkbox-default-height: 30px
+$checkbox-default-total-width: 152px
+$checkbox-default-total-height: 138px
+$checkbox-default-image: '../img/sprite.png'
+$checkbox-default: (34px, 76px, -34px, -76px, 30px, 30px, 152px, 138px, '../img/sprite.png', 'checkbox-default', )
+$face-name: 'face'
+$face-x: 0px
+$face-y: 128px
+$face-offset-x: 0px
+$face-offset-y: -128px
+$face-width: 9px
+$face-height: 10px
+$face-total-width: 152px
+$face-total-height: 138px
+$face-image: '../img/sprite.png'
+$face: (0px, 128px, 0px, -128px, 9px, 10px, 152px, 138px, '../img/sprite.png', 'face', )
+$lupa-name: 'lupa'
+$lupa-x: 0px
+$lupa-y: 76px
+$lupa-offset-x: 0px
+$lupa-offset-y: -76px
+$lupa-width: 34px
+$lupa-height: 34px
+$lupa-total-width: 152px
+$lupa-total-height: 138px
+$lupa-image: '../img/sprite.png'
+$lupa: (0px, 76px, 0px, -76px, 34px, 34px, 152px, 138px, '../img/sprite.png', 'lupa', )
+$mail-name: 'mail'
+$mail-x: 10px
+$mail-y: 118px
+$mail-offset-x: -10px
+$mail-offset-y: -118px
+$mail-width: 11px
+$mail-height: 9px
+$mail-total-width: 152px
+$mail-total-height: 138px
+$mail-image: '../img/sprite.png'
+$mail: (10px, 118px, -10px, -118px, 11px, 9px, 152px, 138px, '../img/sprite.png', 'mail', )
+$tel-black-name: 'tel-black'
+$tel-black-x: 0px
+$tel-black-y: 118px
+$tel-black-offset-x: 0px
+$tel-black-offset-y: -118px
+$tel-black-width: 10px
+$tel-black-height: 10px
+$tel-black-total-width: 152px
+$tel-black-total-height: 138px
+$tel-black-image: '../img/sprite.png'
+$tel-black: (0px, 118px, 0px, -118px, 10px, 10px, 152px, 138px, '../img/sprite.png', 'tel-black', )
+$tel-round-name: 'tel-round'
+$tel-round-x: 94px
+$tel-round-y: 76px
+$tel-round-offset-x: -94px
+$tel-round-offset-y: -76px
+$tel-round-width: 26px
+$tel-round-height: 26px
+$tel-round-total-width: 152px
+$tel-round-total-height: 138px
+$tel-round-image: '../img/sprite.png'
+$tel-round: (94px, 76px, -94px, -76px, 26px, 26px, 152px, 138px, '../img/sprite.png', 'tel-round', )
+$tel-name: 'tel'
+$tel-x: 21px
+$tel-y: 118px
+$tel-offset-x: -21px
+$tel-offset-y: -118px
+$tel-width: 8px
+$tel-height: 9px
+$tel-total-width: 152px
+$tel-total-height: 138px
+$tel-image: '../img/sprite.png'
+$tel: (21px, 118px, -21px, -118px, 8px, 9px, 152px, 138px, '../img/sprite.png', 'tel', )
+$spritesheet-width: 152px
+$spritesheet-height: 138px
+$spritesheet-image: '../img/sprite.png'
+$spritesheet-sprites: ($arrow-down, $arrow-next-v2, $arrow-next, $arrow-prev-v2, $arrow-prev, $checkbox-checked, $checkbox-default, $face, $lupa, $mail, $tel-black, $tel-round, $tel, )
+$spritesheet: (152px, 138px, '../img/sprite.png', $spritesheet-sprites, )
+
+/*
+  The provided mixins are intended to be used with the array-like variables
+
+  .icon-home
+    @include sprite-width($icon-home)
+
+  .icon-email
+    @include sprite($icon-email)
+
+  Example usage in HTML:
+    `display: block` sprite:
+    <div class="icon-home"></div>
+
+  To change `display` (e.g. `display: inline-block`), we suggest using a common CSS class:
+    // CSS
+    .icon {
+      display: inline-block
+    }
+
+    // HTML
+    <i class="icon icon-home"></i>
+  */
+@mixin sprite-width($sprite)
+  width: nth($sprite, 5)
+
+@mixin sprite-height($sprite)
+  height: nth($sprite, 6)
+
+@mixin sprite-position($sprite)
+  $sprite-offset-x: nth($sprite, 3)
+  $sprite-offset-y: nth($sprite, 4)
+  background-position: $sprite-offset-x  $sprite-offset-y
+
+@mixin sprite-image($sprite)
+  $sprite-image: nth($sprite, 9)
+  background-image: url(#{$sprite-image})
+
+@mixin sprite($sprite)
+  @include sprite-image($sprite)
+  @include sprite-position($sprite)
+  @include sprite-width($sprite)
+  @include sprite-height($sprite)
+
+/*
+  The `sprites` mixin generates identical output to the CSS template
+    but can be overridden inside of SASS
+
+  @include sprites($spritesheet-sprites)
+  */
+@mixin sprites($sprites)
+  @each $sprite in $sprites
+    $sprite-name: nth($sprite, 10)
+    .#{$sprite-name}
+      @include sprite($sprite)
+
+i.icon-arrow-down
+	@include sprite($arrow-down)
+i.icon-arrow-next-v2
+	@include sprite($arrow-next-v2)
+i.icon-arrow-next
+	@include sprite($arrow-next)
+i.icon-arrow-prev-v2
+	@include sprite($arrow-prev-v2)
+i.icon-arrow-prev
+	@include sprite($arrow-prev)
+i.icon-checkbox-checked
+	@include sprite($checkbox-checked)
+i.icon-checkbox-default
+	@include sprite($checkbox-default)
+i.icon-face
+	@include sprite($face)
+i.icon-lupa
+	@include sprite($lupa)
+i.icon-mail
+	@include sprite($mail)
+i.icon-tel-black
+	@include sprite($tel-black)
+i.icon-tel-round
+	@include sprite($tel-round)
+i.icon-tel
+	@include sprite($tel)
+
+
+@font-face
+	src: url('../fonts/roboto/light.ttf')
+	font-family: "Roboto", sans-serif
+	font-weight: 100
+
+@font-face
+	src: url('../fonts/roboto/medium.ttf')
+	font-family: "Roboto", sans-serif
+	font-weight: bold
+
+
+@font-face
+	src: url('../fonts/harmonia/light.otf')
+	font-family: "Harmonia"
+	font-weight: 100
+
+@font-face
+	src: url('../fonts/harmonia/regular.otf')
+	font-family: "Harmonia"
+	font-weight: 400
+
+@font-face
+	src: url('../fonts/harmonia/semibd.otf')
+	font-family: "Harmonia"
+	font-weight: 500
+
+@font-face
+	src: url('../fonts/harmonia/bold.otf')
+	font-family: "Harmonia"
+	font-weight: 600
+
+@font-face
+	src: url('../fonts/bebas/regular.ttf')
+	font-family: "Bebas"
+	font-weight: normal
+
+
+@mixin blue-plashka($value)
+	content: ''
+	display: block
+	position: relative
+	width: 65px
+	height: 5px
+	margin: $value auto
+	background: $c3
+
+
+
+$c1: #333333
+$c2: #fff
+$c3: #117FBF
+$c4: #3394CB
+$fz: 16px
+$ff1: "Roboto", sans-serif
+$ff2: "Harmonia", sans-serif
+$ff3: "Bebas", sans-serif
+
+
+*
+	margin: 0
+	padding: 0
+	outline: none !important
+body
+	font: $fz $ff1
+	color: $c1
+	font-weight: 100
+	background: $c2
+	box-sizing: border-box
+
+html, body, header, article, aside, main, footer, div, h1, h2, h3, h4, h5, h6, button, .show
+	display: block
+
+meta, script, style, .hidden
+	display: none
+
+h6
+	font-weight: normal
+
+h1, h2, h3, h5
+	text-transform: uppercase
+
+
+h1
+	font-size: 30px
+	line-height: 37px
+	text-align: center
+	max-width: 630px
+	margin-left: auto
+	margin-right: auto
+h2
+	font-size: 30px
+	text-align: center
+h3
+	font-size: 18px
+	font-weight: 900
+	letter-spacing: 1.5px
+h4
+	font-size: 18px
+	font-weight: bold
+h5
+	font-size: 12px
+h6
+	font-size: 10px
+
+
+
+a
+	color: $c1
+	text-decoration: none
+	transition: .3s
+
+button, input[type="submit"]
+	cursor: pointer
+
+button, input, textarea, select
+	display: block
+	outline: none
+	border: none
+	background: none
+	font-family: $ff1
+
+input, select
+	border: 1px solid #D7D7D7
+	background: #EEEEEE
+	border-radius: 5px
+	height: 41px
+	padding: 14px
+	box-sizing: border-box
+	font-weight: normal
+	font-size: 20px
+	width: 100%
+
+select
+	width: 100%
+	padding-top: 0
+	padding-bottom: 0
+
+input.num
+	position: relative
+	top: 2px
+	display: inline-block
+	width: 123px
+	height: 46px
+	text-align: center
+
+input[name="name"]
+	text-transform: capitalize
+
+textarea
+	resize: none
+
+ul, ol
+	margin: 5px 0 5px 20px
+	list-style: none
+
+.fll
+	float: left
+
+.flr
+	float: right
+
+.form-text
+	.text
+		float: left
+	.checkbox
+		float: right
+
+.checkbox
+	input
+		display: none
+	input:checked + label
+		@include sprite($checkbox-checked)
+
+	label
+		display: inline-block
+		@include sprite($checkbox-default)
+		cursor: pointer
+
+.dd-list
+	position: relative
+	input
+		display: none
+	.here
+		position: relative
+		border: 1px solid #D7D7D7
+		background: #EEEEEE
+		border-radius: 5px
+		height: 41px
+		padding: 9px 14px
+		box-sizing: border-box
+		font-weight: normal
+		font-size: 16px
+		.dd
+			position: absolute
+			top: -1px
+			right: -1px
+			background: url('../img/bg/button/v5.jpg')
+			border-radius: 5px
+			height: 41px
+			width: 58px
+			text-align: center
+			cursor: pointer
+			// transition: .3s
+			&:hover
+				opacity: .8
+			i
+				position: relative
+				top: 11px
+				transition: .3s
+			i.rotate
+				transform: rotate(180deg)
+	.list
+		z-index: 10
+		position: absolute
+		display: none
+		border: 1px solid #D7D7D7
+		background: #EEEEEE
+		font-size: 20px
+		font-size: 20px
+		border-radius: 5px
+		padding: 14px 25px
+		margin-top: 3px
+		width: 100%
+		box-sizing: border-box
+		.item
+			font-size: 16px
+			border-bottom: 1px solid #D7D7D7
+			&:last-of-type
+				border-bottom: 0
+			label
+				cursor: pointer
+				display: block
+				padding: 5px 0
+
+ul.checked
+	li
+		position: relative
+		margin-left: 25px
+		margin-bottom: 27px
+		&:before
+			position: absolute
+			content: ''
+			display: inline-block
+			width: 31px
+			height: 31px
+			background-image: url("../img/ul/checked.png")
+			top: -5px
+			left: -46px
+
+ul.circle
+	li
+		position: relative
+		margin-left: 30px
+		margin-bottom: 0px
+		&:before
+			position: absolute
+			content: ''
+			display: inline-block
+			width: 31px
+			height: 31px
+			background-image: url("../img/ul/circle.png")
+			background-repeat: no-repeat
+			background-position: center
+			top: -6px
+			left: -30px
+		&:last-of-type
+			margin-right: 50px
+ul.circle-green
+	li
+		position: relative
+		margin-left: 10px
+		margin-bottom: 12px
+		line-height: 22px
+		&:before
+			position: absolute
+			content: ''
+			display: inline-block
+			width: 31px
+			height: 31px
+			background-image: url("../img/ul/circle-green.png")
+			background-repeat: no-repeat
+			background-position: center
+			top: -6px
+			left: -40px
+ul.enclosed
+	li
+		position: relative
+		margin-left: 0
+		line-height: 24px
+		font-size: 14px
+		font-weight: bold
+		&:before
+			position: absolute
+			content: ''
+			display: inline-block
+			width: 31px
+			height: 31px
+			background-image: url("../img/ul/enclosed.png")
+			background-repeat: no-repeat
+			background-position: center
+			top: -5px
+			left: -32px
+		a
+			&:hover
+				text-decoration: underline
+::placeholder
+	color: gray
+
+
+.tal
+	text-align: left
+
+.tac
+	text-align: center
+
+.tar
+	text-align: right
+
+span.desc
+	display: block
+
+i.icon
+	display: inline-block
+
+
+.i, i
+	font-style: italic
+
+.b, b, strong
+	font-weight: bold
+
+.btn, button
+	display: block
+	text-align: center
+	cursor: pointer
+	text-transform: uppercase
+	box-sizing: border-box
+
+.btn
+	&.v1
+		width: 100%
+		height: 61px
+		background: url('../img/bg/button/v1.jpg')
+		border-radius: 5px
+		font-family: $ff2
+		font-weight: 400
+		color: $c2
+		letter-spacing: 1.2px
+		transition: .2s
+		text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.31)
+		&:hover
+			opacity: 0.8
+
+	&.v2
+		width: 285px
+		line-height: 47px
+		height: 50px
+		background: #9AD64A
+		border-bottom: 4px solid #87BB40
+		border-radius: 3px
+		font-size: 20px
+		font-weight: bold
+		text-transform: none
+		&:hover
+			position: relative
+			top: 4px
+			border-bottom: 4px solid transparent
+	&.v3
+		width: 180px
+		background: $c2
+		font-size: 16px
+		height: 36px
+		border-bottom: 3px solid #E9E9E9
+		border-radius: 3px
+		padding: 8px 10px
+		transition: .2s
+		&:hover
+			position: relative
+			top: 3px
+			border-bottom: 3px solid transparent
+	&.v4
+		display: inline-block
+		width: 59px
+		height: 41px
+		background: url('../img/bg/button/v4.jpg')
+		font-size: 13px
+		border-radius: 5px
+		color: $c2
+		font-weight: 400
+		box-sizing: border-box
+		padding-top: 13px
+		transition: .2s
+		&:hover
+			opacity: 0.8
+
+.container
+	position: relative
+	max-width: 1110px
+	margin: 0 auto
+	padding-left: 15px
+	padding-right: 15px
+
+
+.row, .clearfix, .reviews
+	&:before, &:after
+		display: table
+		content: ''
+		box-sizing: border-box
+	&:after
+		clear: both
+
+.w0
+	.a1
+		width: 8.33333333%
+	.a2
+		width: 16.66666667%
+	.a3
+		width: 25%
+	.a4
+		width: 33.33333333%
+	.a5
+		width: 41.66666667%
+	.a6
+		width: 50%
+	.a7
+		width: 58.33333333%
+	.a8
+		width: 66.66666667%
+	.a9
+		width: 75%
+	.a10
+		width: 83.33333333%
+	.a11
+		width: 91.66666667%
+	.a12
+		width: 100%
+
+
+.w2 > .col
+	width: 50%
+.w3 > .col
+	width: 33.333333333%
+.w4 > .col
+	width: 25%
+.w5 > .col
+	width: 20%
+.w6 > .col
+	width: 16.666666667%
+
+
+.col
+	display: block
+	float: left
+	min-height: 1px
+
+.breadcrumbs
+	list-style: none
+	li
+		display: inline
+		&:after
+			position: relative
+			display: inline-block
+			content: '/'
+			margin-right: 0
+			margin-left: 3px
+		&:last-of-type
+			&:after
+				display: none
+
+.caret
+	li
+		list-style: none
+	a
+		cursor: pointer
+	ul
+		display: none
+		
+
+.breadcrumbs, .caret
+	margin-left: 0
+
+.nav
+	margin: 32px 0 36px
+	text-align: center
+	font-size: 17px
+	color: #c6c6c6
+	font-weight: bold
+	li
+		display: inline-block
+		cursor: pointer
+		transition: .5s
+		&.select, &:hover
+			color: $c1
+
+button#sticks
+	display: none
+	float: right
+	width: 40px
+	height: 40px
+	span
+		display: block
+		position: relative
+		width: 35px
+		height: 4px
+		background: $c2	
+		margin-left: auto
+		margin-right: auto
+		transition: .5s
+		&:nth-of-type(2)
+			margin: 6px auto
+button#sticks.close
+	span
+		&:nth-of-type(1)
+			transform: rotate(135deg)
+		&:nth-of-type(2)
+			display: none
+		&:nth-of-type(3)
+			margin-top: -4px
+			transform: rotate(-135deg)
+.input-icon
+	position: relative
+	i
+		position: absolute
+		top: 17px
+		left: 15px
+		&:after
+			content: ''
+			position: relative
+			display: inline-block
+			width: 1px
+			height: 18px
+			background: #C0C0C0
+			top: -5px
+			right: -25px
+	input
+		border: none
+		border-radius: 0
+		background: $c2
+		font-size: 16px
+		font-family: $ff1
+		font-weight: 300
+		margin-bottom: 12px
+		padding: 15px 15px 15px 60px
+.calc
+	float: right
+	background: $c2
+	padding: 23px
+	border-radius: 5px
+	box-shadow: 0px 36px 32px 0px rgba(2, 80, 44, 0.18)
+	margin-top: 20px
+	// margin-left: 30px
+	.row
+		margin-bottom: 22px
+	.desc
+		display: block
+		color: #b1aeac
+		font-family: $ff2
+		font-weight: 600
+		font-size: 12px
+		text-transform: uppercase
+		letter-spacing: 1.2px
+		margin-bottom: 12px
+	.text
+		font-size: 12px
+		font-family: $ff2
+		letter-spacing: 0.5px
+		font-weight: bold
+		text-transform: uppercase
+		line-height: 32px
+	.num
+		margin-left: 28px
+		margin-right: 28px
+	.answer
+		float: right
+		display: inline-block
+		width: 22px
+		height: 30px
+		margin-left: 3px
+		font-size: 14px
+		font-weight: normal
+		line-height: 30px
+		text-align: right
+.global-nav
+	background: $c3
+	font-size: 17px
+	padding-left: 80px
+	ul
+		margin: 0
+		li
+			display: inline-block
+			list-style: none
+
+			&:hover, &.select
+				a
+					background: $c4
+					position: relative
+					&:before
+						content: ''
+						position: absolute
+						display: block
+						top: 0
+						left: -1px
+						width: 1px
+						height: 64px
+						background: $c4
+
+			&:last-of-type
+				span
+					border-right: 0
+		a
+			display: inline-block
+			color: $c2
+			padding: 22px 0
+			transition: .3s
+		span
+			padding: 5px 27px
+			border-right: 1px solid $c4
+#popup
+	display: none
+	z-index: 100000
+	position: absolute
+	left: 0
+	top: 0
+	width: 100%
+	height: 100%
+	background: rgba(0,0,0,.5)
+
+	.container
+		max-width: 400px
+		padding: 50px 35px	
+		background: #028bca
+		box-shadow: 3.4px 12.6px 34px 6px rgba(0, 0, 0, 0.17)
+		box-sizing: border-box
+		top: 150px
+		.title
+			display: block
+			text-align: center
+			margin-bottom: 10px
+			color: $c2
+			font-family: $ff2
+			font-weight: bold
+			font-size: 33px
+			text-transform: uppercase
+		.desc
+			margin-bottom: 30px
+			text-align: center
+			color: #FFF
+			text-shadow: 0.3px 1px 0 rgba(0, 0, 0, 0.17)
+			font-size: 19px
+		.btn
+			width: 100%
+			color: $c2
+			font-weight: 300
+			margin-top: 30px
+		.message
+			display: none
+		.error-tel
+			display: none
+			margin-top: 25px
+			color: #f00
+			font-weight: normal
+		.close
+			position: absolute
+			top: -25px
+			right: -25px
+			color: $c2
+			font-size: 30px
+			font-family: "Tahoma"
+			background-image: url("../img/icon-modal-close.png")
+			width: 18px
+			height: 19px
+#popup-text
+	display: none
+	z-index: 100000
+	position: absolute
+	left: 0
+	top: 0
+	width: 100%
+	height: 100%
+	background: rgba(0,0,0,.5)
+	.container
+		position: relative
+		background: $c2
+		max-width: 700px
+		padding: 25px 30px 20px 30px
+		box-sizing: border-box
+		// top: 150px
+	.title
+		margin-bottom: 20px
+		font-size: 30px
+		color: #333
+		font-weight: normal
+		text-transform: none
+	.desc
+		color: #939393
+		font-size: 16px
+		padding-bottom: 20px
+		border-bottom: 1px solid #ffeded
+	.text
+		padding-top: 20px
+	.close
+		position: absolute
+		top: 8px
+		right: 8px
+		color: $c2
+		font-size: 30px
+		font-family: "Tahoma"
+		background-image: url("../img/icon-modal-close-black.png")
+		width: 18px
+		height: 19px
+	ul
+		li
+			position: relative
+			margin-bottom: 13px
+			padding-left: 34px
+			font-size: 16px
+			&:before
+				position: absolute
+				content: ''
+				display: inline-block
+				width: 8px
+				height: 8px
+				background-image: url("../img/ul/circle-green-2.png")
+				top: 5px
+				left: 0px
+#header
+	#panel
+		background: url('../img/bg/top-panel.jpg') top center
+		font-family: $ff2
+		color: $c2
+		height: 98px
+		a, span
+			color: $c2
+		*
+			font-weight: normal
+		.logo
+			width: 298px
+			img
+				position: absolute
+				left: -22px
+
+		.desc
+			padding-top: 37px
+			font-size: 18px
+			font-weight: 500
+			margin-left: -22px
+			margin-right: 50px
+			text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.21)
+
+		.contacts
+			padding-top: 25px
+			color: #b0dff8
+			text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.21)
+			p
+				*
+					font-size: 20px
+					font-weight: 100
+
+		.phone
+			float: right
+			padding-top: 11px
+			a
+				display: block
+				font-size: 18px
+				margin-bottom: 8px
+				text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.21)
+			i
+				position: relative
+				top: 7px
+	#banner		
+		margin-top: -98px
+		img
+			display: block
+			z-index: -1
+			position: relative
+			width: 100%
+			margin: 0 auto
+#main
+	padding-top: 50px
+	background: url('../img/bg/main.jpg') repeat-y top center
+	#content
+		float: right
+		max-width: 825px
+		h1, h2
+			&:after
+				@include blue-plashka(23px)
+		h4
+			margin-top: 60px
+			margin-bottom: 28px
+			&:after
+				@include blue-plashka(4px)
+				display: inline-block
+				margin-left: 15px
+		#why-we
+			.desc
+				text-align: center
+				color: #898989
+				font-size: 20px
+				font-weight: 100
+			.facts
+				margin-top: 27px
+				margin-bottom: 65px
+				img
+					float: left
+					margin-right: 8px
+				p
+					padding-top: 30px
+					float: left
+					font-weight: normal
+				.col
+					&:nth-of-type(3)
+						p
+							margin-right: -30px
+
+			.tack-zhe
+				background: url('../upload/why-we/bg.png') no-repeat top right
+				margin-right: -100px
+				margin-top: -63px
+				padding-bottom: 140px
+		
+		#price-repair
+			.nav
+				position: relative
+				.slick-dots
+					li
+						width: auto
+						button
+							display: none
+						&:after
+							display: inline-block
+						&:nth-of-type(1)
+							&:after
+								content: 'Косметический'
+						&:nth-of-type(2)
+							&:after
+								content: 'Стандартный'
+						&:nth-of-type(3)
+							&:after
+								content: 'Класса люкс'
+						&.slick-active, &:hover, &:active
+							&:after
+								color: #333333
+								
+
+			.slider
+				margin-right: -60px
+				.col
+					position: relative
+					&.left
+						width: 485px
+						height: 646px
+					&.right
+						width: 350px
+				img
+					position: absolute
+					// top: -10px
+					// left: -10px
+				.group
+					position: relative
+					margin-top: 20px
+					margin-bottom: 42px
+					h3
+						z-index: 2
+						position: relative
+						padding-top: 20px
+						padding-left: 50px
+						text-shadow: rgb(255, 255, 255) 0px -3px 0px, rgb(255, 255, 255) 0px -3px 0px, rgb(255, 255, 255) 0px 3px 0px, rgb(255, 255, 255) 0px 3px 0px, rgb(255, 255, 255) -3px 0px 0px, rgb(255, 255, 255) 3px 0px 0px, rgb(255, 255, 255) -3px 0px 0px, rgb(255, 255, 255) 3px 0px 0px, rgb(255, 255, 255) -1px -3px 0px, rgb(255, 255, 255) 1px -3px 0px, rgb(255, 255, 255) -1px 3px 0px, rgb(255, 255, 255) 1px 3px 0px, rgb(255, 255, 255) -3px -1px 0px, rgb(255, 255, 255) 3px -1px 0px, rgb(255, 255, 255) -3px 1px 0px, rgb(255, 255, 255) 3px 1px 0px, rgb(255, 255, 255) -2px -3px 0px, rgb(255, 255, 255) 2px -3px 0px, rgb(255, 255, 255) -2px 3px 0px, rgb(255, 255, 255) 2px 3px 0px, rgb(255, 255, 255) -3px -2px 0px, rgb(255, 255, 255) 3px -2px 0px, rgb(255, 255, 255) -3px 2px 0px, rgb(255, 255, 255) 3px 2px 0px, rgb(255, 255, 255) -3px -3px 0px, rgb(255, 255, 255) 3px -3px 0px, rgb(255, 255, 255) -3px 3px 0px, rgb(255, 255, 255) 3px 3px 0px, rgb(255, 255, 255) -3px -3px 0px, rgb(255, 255, 255) 3px -3px 0px, rgb(255, 255, 255) -3px 3px 0px, rgb(255, 255, 255) 3px 3px 0px
+
+					h5
+						z-index: 1
+						position: relative
+						top: 0
+						opacity: 0.07
+						position: absolute
+						font-size: 47.3px
+						margin-right: -285px
+						font-weight: 900
+				.list
+					margin-left: 40px
+					margin-right: -30px
+					li
+						line-height: 24px
+						margin-bottom: 1px
+				.price
+					margin-left: 50px
+					font-size: 18px
+					margin-right: -30px
+					*
+						line-height: 30px
+					strong
+						text-transform: uppercase
+						letter-spacing: 1.5px
+						margin-right: 8px
+					var, i
+						font-style: normal
+					span
+						font-size: 22.18px
+						font-weight: 500
+						color: #dadada
+						text-decoration: line-through
+						margin-right: 4px
+					b
+						color: #9dd837
+						font-size: 25.88px
+					i
+						font-size: 22.18px
+					sup
+						font-size: 14px
+	
+		#calc-repair
+			margin-bottom: 55px
+			.left
+				h2
+					&:after
+						margin-left: 0
+				.desc
+					margin-bottom: 60px
+				img
+					margin-left: -38px
+			
+			.right
+				float: right
+				margin-left: 0
+		#price-design
+			.nav
+				position: relative
+				margin-bottom: 60px
+				li
+					&:nth-of-type(1)
+						margin-left: 80px
+					&:nth-of-type(3)
+						margin-right: 0
+
+			.slick-dots
+				li
+					width: auto
+					button
+						display: none
+					&:after
+						display: inline-block
+					&:nth-of-type(1)
+						&:after
+							content: 'Максимальный'
+					&:nth-of-type(2)
+						&:after
+							content: 'Рабочий'
+					&:nth-of-type(3)
+						&:after
+							content: 'Планировочные решения'
+					&.slick-active, &:hover, &:active
+						&:after
+							color: #333333
+			.slider
+				margin-left: -32px
+				margin-top: -20px
+				margin-right: -45px
+				.item
+					position: relative
+				.col
+					position: absolute
+					top: 19px
+					right: 35px
+					background: rgba(0, 128, 196, .7)
+					width: 350px
+					height: 537px
+					padding-top: 75px
+					padding-left: 33px
+					padding-right: 33px
+					box-sizing: border-box
+					color: $c2
+				h6
+					font-size: 16px
+				.group
+					position: relative
+					font-size: 47.3px
+					margin-top: 12px
+					border-bottom: 1px solid #80B3CB
+					margin-bottom: 30px
+					margin-right: -33px
+					h3
+						position: relative
+						z-index: 2
+						font-size: 20px
+						font-weight: 900
+						padding-bottom: 8px
+					h6
+						z-index: 1
+						opacity: .1
+						position: absolute
+						font-size: 47.3px
+						font-weight: 900
+						top: -32px
+						left: -20px
+						margin-right: -250px
+				a
+					color: $c2
+					border-bottom: 1px solid $c2
+					font-weight: 500
+					line-height: 22px
+				.btn
+					margin-top: 125px
+
+		#projects
+			margin-top: -30px
+			.item
+				position: relative
+				width: 255px
+				height: 219px
+				padding-top: 20px
+				padding-bottom: 20px
+				img
+					z-index: 1
+					position: absolute
+					// filter: blur(2px)
+					transition: .5s
+					left: 12.5px
+				.wrapper
+					opacity: 0
+					position: relative
+					z-index: 2
+					display: block
+					background: rgba(55,188,238,.7)
+					width: 255px
+					height: 219px
+					color: $c2
+					padding: 11px
+					box-sizing: border-box
+					transition: .5s
+					margin-left: 12.5px
+				.border
+					border: 1px solid #AEDDEF
+					height: 100%
+					padding: 10px
+					box-sizing: border-box
+				h6
+					text-align: center
+					font-size: 18px
+					font-weight: bold
+					&:before
+						content: ''
+						display: block
+						@include sprite($lupa)
+						margin: 30px auto 15px
+				p
+					margin-top: 5px
+					text-align: center
+					line-height: 24px
+				&:hover
+					img
+						filter: blur(2px)
+					.wrapper 
+						opacity: 1
+				&.slick-active
+					img
+						box-shadow: 0px 4px 24px 0px rgba(2, 80, 112, 0.23)
+			.slick-prev, .slick-next
+				&:before
+					display: none
+				z-index: 1000
+				// position: relative
+				width: 60px
+				height: 60px
+				background: #3DBAEA
+				transform: rotate(45deg)
+				top: 38%
+				transition: .3s
+				i
+					transform: rotate(-45deg)
+				&:hover
+					background: #9DD74D
+			.slick-prev
+				left: -17px
+			.slick-next
+				right: -17px
+			.btn
+				margin-top: 30px
+				color: $c2
+				margin-left: auto
+				margin-right: auto
+			
+		#calc-design
+			margin-top: 65px
+			.group
+				margin-bottom: 40px
+				h2
+					&:after
+						margin-left: 0
+			img
+				margin-left: -30px
+			.right
+				float: right
+		#about-num
+
+			.this
+				background: url('../upload/about-num/bg.png') no-repeat top center
+				min-height: 561px
+				text-align: center
+			span
+				display: block
+				font-size: 60px
+				font-family: $ff2
+				color: #9bd732
+				font-weight: 300
+				text-shadow: rgb(255, 255, 255) 0px -2px 0px, rgb(255, 255, 255) 0px -2px 0px, rgb(255, 255, 255) 0px 2px 0px, rgb(255, 255, 255) 0px 2px 0px, rgb(255, 255, 255) -2px 0px 0px, rgb(255, 255, 255) 2px 0px 0px, rgb(255, 255, 255) -2px 0px 0px, rgb(255, 255, 255) 2px 0px 0px, rgb(255, 255, 255) -1px -2px 0px, rgb(255, 255, 255) 1px -2px 0px, rgb(255, 255, 255) -1px 2px 0px, rgb(255, 255, 255) 1px 2px 0px, rgb(255, 255, 255) -2px -1px 0px, rgb(255, 255, 255) 2px -1px 0px, rgb(255, 255, 255) -2px 1px 0px, rgb(255, 255, 255) 2px 1px 0px, rgb(255, 255, 255) -2px -2px 0px, rgb(255, 255, 255) 2px -2px 0px, rgb(255, 255, 255) -2px 2px 0px, rgb(255, 255, 255) 2px 2px 0px, rgb(255, 255, 255) -2px -2px 0px, rgb(255, 255, 255) 2px -2px 0px, rgb(255, 255, 255) -2px 2px 0px, rgb(255, 255, 255) 2px 2px 0px
+				padding-top: 30px
+			p
+				font-weight: bold
+				margin-top: 35px
+			.col
+				background-position: top center
+				background-repeat: no-repeat
+				width: 180px
+			.right
+				float: right
+			.top
+				.left
+					background-image: url('../upload/about-num/top-left.png')
+					margin-top: 73px
+					p
+						margin-top: 45px
+				.right
+					background-image: url('../upload/about-num/top-right.png')
+					margin-top: 35px
+			.bottom
+				.left
+					background-image: url('../upload/about-num/bottom-left.png')
+					padding-top: 20px
+					margin-top: 40px
+					margin-left: 25px
+					p
+						margin-top: 45px
+				.right
+					background-image: url('../upload/about-num/bottom-right.png')
+					margin-top: 50px
+					margin-left: -10px
+		
+		#consultation
+			background: url('../upload/consultation/bg.png')
+			min-height: 437px
+			margin-right: -30px
+			.col
+				float: right
+				width: 255px
+				margin-right: 30px
+				margin-top: 80px
+				color: $c2
+			span
+				display: block
+				text-align: center
+				text-transform: uppercase
+				font-weight: 400
+				&.h2
+					font-size: 23px
+				&.h1
+					font-size: 32px
+					margin-top: 3px
+				&.h3
+					font-size: 11px
+					margin-right: -5px
+					margin-top: 5px
+					margin-bottom: 17px
+			.btn
+				width: 100%
+		#text
+			margin-top: -30px
+			h2
+				&:nth-of-type(1)
+					text-align: left
+					&:after
+						margin-left: 0
+			p
+				margin-bottom: 20px
+				line-height: 20px
+			img
+				// margin-bottom: 30px
+				&.fll
+					margin-right: 30px
+				&.flr
+					margin-left: 30px
+	#aside
+		position: relative
+		float: left
+		max-width: 255px
+		z-index: 1001
+		h2
+			color: $c3
+			text-transform: none
+			text-align: left
+			font-size: 18px
+			font-weight: bold
+			margin-bottom: 25px
+		#services
+			margin-bottom: 24px
+
+		#chore
+			text-align: center
+			margin-bottom: 55px
+			.slider
+				position: relative
+				max-width: 255px
+			a
+				display: block
+				margin-top: 15px
+				color: #0080c4
+				font-weight: normal
+			.slick-arrow
+				z-index: 1000
+				top: 42%
+				width: 76px
+				height: 76px
+				&:before
+					display: none
+			.slick-prev
+				left: -5px
+
+			.slick-next
+				right: -5px
+
+		#stock
+			margin-bottom: 80px
+
+		.reviews
+			.item
+				margin-bottom: 29px
+			.group
+				position: relative
+				img
+					position: relative
+					z-index: 1
+				span
+					z-index: 2
+					display: block
+					position: absolute
+					bottom: 22px
+					font-size: 16px
+					text-align: center
+					color: $c2
+					width: 255px
+					font-weight: 500
+			h3
+				font-size: 16px
+				font-weight: 500
+				margin-top: 20px
+				margin-bottom: 14px
+		#advantages
+			text-align: center
+			margin-top: 27px
+			margin-bottom: 36px
+			h2
+				text-align: center
+			img
+				margin-bottom: 20px
+			p
+				line-height: 22px
+			.item
+				margin-bottom: 26px
+
+		#works
+			margin-bottom: 70px
+			a
+				display: block
+				font-weight: bold
+				font-size: 18px
+				color: $c3
+				margin-bottom: 7px
+			img
+				margin-bottom: 7px
+			.item
+				margin-bottom: 30px
+		#all-links
+			margin-bottom: 58px
+		#visit
+			margin-bottom: 40px
+			img
+				display: block
+			p
+				margin-top: -15px
+				line-height: 18px
+
+#footer
+	background: url('../img/bg/top-panel.jpg') top center
+	color: $c2
+	a
+		color: $c2
+	.top
+
+	.bottom
+		.logo
+			img
+				margin-top: -1px
+				margin-bottom: -3px
+				margin-left: -21px
+		.contacts
+			text-align: center
+			padding-top: 12px
+			line-height: 22px
+			padding-left: 25px
+			.tel
+				font-size: 18px
+				font-weight: 500
+			.icon
+				margin-right: 5px
+			.margin-bottom
+				margin-bottom: 5px
+		.dev
+			margin-top: 35px
+			float: right
+			line-height: 21px
+			strong
+				display: block
+				font-weight: 500
+				font-size: 18px
+				
